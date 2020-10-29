@@ -1,6 +1,7 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -14,10 +15,22 @@ body{
 #login-top{
     background-color: #4e5754;
     max-width: 500px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .5em;
 }
 
-.registry img {
-    width: 250px;
+#user-image {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.blocks-of-icons{
+    background-color: #4e5754;
 }
 
 .registry{
@@ -25,5 +38,5 @@ body{
     max-width: 500px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
+    padding: 1.2em;
 }
