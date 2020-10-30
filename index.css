@@ -46,11 +46,6 @@ button{
 }
 
 /*Configuration of the inputs forms*/
-#desing-eye{
-    
-    float: right;
-}
-
 form .blocks-of-icons{
     background-color: #4e5754;
     width: 100%;
@@ -76,6 +71,15 @@ form .blocks-of-icons input{
     background: #181818;
     padding: .7em;
     color: #ffffff;
+}
+
+#password-input{
+    grid-column: 2/7;
+}
+
+#design-eye{
+    grid-column: 8;
+    background-color: black;
 
 }
 
@@ -91,4 +95,21 @@ form .blocks-of-icons input{
     margin-left: auto;
     margin-right: auto;
     padding: 1.2em;
+}
+
+/*Design of the "blocks-of-information*/
+#blocks-of-information .blocks-of-icons{
+    height: 40px;
+    width: 5px;
+}
+
+#blocks-of-information .blocks-of-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocks-of-information{
+    display: flex;
+    justify-content: space-between;
 }
