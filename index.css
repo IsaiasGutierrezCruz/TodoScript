@@ -1,0 +1,115 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #181818;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding: 3em 1.5em;
+}
+
+button{
+    width: 100%;
+    background: #181818;
+    color: #ffffff;
+    height: 3em;
+    margin: 1.5em 0;
+}
+
+#login-top{
+    background-color: #4e5754;
+    max-width: 500px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: .5em;
+}
+
+#user-image {
+    width: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1.6em;
+}
+
+#blocks-of-information div{
+    background-color: #4e5754;
+    display: inline-block;
+    flex: auto;
+}
+
+/*Configuration of the inputs forms*/
+form .blocks-of-icons{
+    background-color: #4e5754;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 20px 0;
+}
+
+form .blocks-of-icons i{
+    display: flex;
+    grid-column: 1;
+    height: 3em;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form .blocks-of-icons input{
+    grid-column: 2/8;
+    height: 100%;
+    border: none;
+    background: #181818;
+    padding: .7em;
+    color: #ffffff;
+}
+
+#password-input{
+    grid-column: 2/7;
+}
+
+#design-eye{
+    grid-column: 8;
+    background-color: black;
+
+}
+
+.registry{
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.entry-information{
+    background-color: gray;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.2em;
+}
+
+/*Design of the "blocks-of-information*/
+#blocks-of-information .blocks-of-icons{
+    height: 40px;
+    width: 5px;
+}
+
+#blocks-of-information .blocks-of-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#blocks-of-information{
+    display: flex;
+    justify-content: space-between;
+}
