@@ -1,2 +1,2 @@
 # TodoScript
-PrChange from local to practice resolving git conflicts
+PrChange from local to practice resolving git conflictis
