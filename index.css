@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: blue;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     padding: 3em 1.5em;
@@ -15,7 +15,7 @@ body{
 
 button{
     width: 100%;
-    background: black;
+    background: white;
     color: #ffffff;
     height: 3em;
     margin: 1.5em 0;
