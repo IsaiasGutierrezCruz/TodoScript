@@ -1,2 +1,2 @@
 # TodoScript
-Proof to practice resolving git conflicts
+Proof to practice resolving git conew word from github
