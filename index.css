@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: orange;
+    background-color: white;
     color: black;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -15,7 +15,7 @@ body{
 
 button{
     width: 100%;
-    background: red;
+    background: white;
     color: #ffffff;
     height: 3em;
     margin: 1.5em 0;
